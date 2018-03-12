@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hello-world-pompei",
+  "private_key_id": "1712e59c82fda786c66d75c249b424adbf16b1d0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCGLJ35E4UWezKk\n8L4hSWoZ9DxrUJP0pO1GZ3gxvanAxADyaD8StyCeoVzADH5qYGBoryK3OJ2W9qrX\nubxccWWGEO82Sn8WY1ohL8EtuoQOJCfnXWnwuIV6BNp2/3/y9xIbn1p4sxL5p+05\nARPvAouUQc5+x9wbcgMDtbPNcPbPfoNuOYAIfxT9CuJPF8Wtls51xDL3p+I9jYba\n3NVInR+HN5HK51iGMgsJWCoEFECGVTLkPlSXNtSOb0BQ02rXsJFWYxc/JOvY7/ls\n7pkywyqCJ0/RB1/uSTVUnT8F3M6ssVXSWKyAfiXSfnmD6Fv1D5vuA6U+qCh2qSQM\nO4yhis9tAgMBAAECggEACTA1AUGc85UsOq9h1dW5Nl3LZW33M+G3fgLH8GAUp+bE\nSdVpvFZeHX7fYyd34MEI2SJlNjbiU9xAhtVpWMtLMIsoVodzfI0BNxSWHhOPx4gi\nU23KO3nnahu6+js0/+Z7jviysWFSA1bEoAq62rtJ47U99uCo6hg8rJxc28zImhzu\ncAk3aAuw67nweZ4OgPBWMmyNWTR9i9QUmiZgsWDVUt08mlvCWkiqqk1MHzUW/nxK\nM1SxOrB17SwNClW6WaJxg0oIdzaUcnF5Z5AOHEnsFZNy6RTM+27wZcbjB+fcOwdg\n29PnOVwrfJKkFZysO0SsCVqsxJg72Ya+3oNU5k9kAQKBgQC8dWriBWHHiBCjSOIs\nHsBOWo7p3hcBU6EsOlR7cYuU+VzMgnDjbRFe3EUG6/1Wk5frSpqNKeRZcHjP8dNl\n0oYwfXsJKqSjHG6gZ8aYx5anVIU+bx8ZXELmfwnrIpDlFqIKjby/HFWPe5kfKUYV\nH7Sm2TYQr7ynHQwKJCeEepvwYQKBgQC2QsCAvDT5+25ew6tTVztl8CgQpKQdllKM\nAu3zLiPeTrw6IEkDILaFrNlF+XJINENmpu+5xcDgjpAYZFFvYYbVVxtn59XdcN+W\nkLWYlZxKn0kOYtYiDQJwVWNd/ve2UAkj10Zrfm6V1zsa6PcMbULPxmNc7Y0FIOGH\nIBS/9WeqjQKBgQCHsDq+dYWLNipUhlthzNpFD+qp89+4ctAumejN4FjRcCEiliBV\nfufs1sdUToFe3nGZVWOlk633v4Uco07DlypKq230kaFsV0JHd7CDu+B6pd4xr6xC\nhC0e7ATmKUMNzpfo5VgqeWoZHrKGvx7YgrV9FBNbPEymPcG3Y4SYW/b+wQKBgG6h\n5EIAfFPFiEBjm4pyJ+7/sQIxPiFrjt3IJXH4bvNRbbYGxOruH3zS5+wut20WtFcK\nO/fTDvn/732u3zOxymuTfWI7+rh4/G9jladyITW2rFzcJ8jxhqpzWmbDDtAOkw27\nbdZwH2Y7CHiUMunLJMQEU2okE/ap99vS4GWI7A09AoGAOnQJ1TZfmzCunrWllVpP\ny6uUEMP/A2TZUxVzG4LHSyogVsi9AS+p9izy0FUJrudiPQ6+pAJ5o6Oa9hxa4mLE\n7K90H4GWkGCLDRltFP3HqCu+Qv+EuyehP1ThXE5oVBXjMzUf/8NEHSP0vMLw3ryJ\n5DlfIbcBbqX3yjue7cMA/g0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraform-example-hello-wo-932@hello-world-pompei.iam.gserviceaccount.com",
+  "client_id": "118371268287875295186",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-example-hello-wo-932%40hello-world-pompei.iam.gserviceaccount.com"
+}
