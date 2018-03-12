@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hello-world-pompei",
+  "private_key_id": "2c306d45af9f6d5d3fc8d59723cb19b0b65b037b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDr6x+QVudhelFP\nxDaeYeRX8J+9nQdv998EgrZLD2bK7STQIYYyX3fyNifY2YwUUhpLCVKVtOnlr3wQ\nAsStJNh2lZDRPEdmeJX1+4Mne1PAxMm96vjIb2yDgTaClUh6AdZixEhXJ9vxh3mf\nWWEMtqlcmqW0q+V4LixAVMyEWUWoTR8Ez/J2Oz/66qlQZKqi8HrQL39FL+8EgNhm\n7ULGvogMrBfTrnKBfKaCxEmPqjLa7F4B98n6GS6sD+mhcr80T61jBI2jlYHz8sTj\nRQWSIQykLPXQCPnjJRu1otbFefyt8owB2WEIhDw2y5KLVgsmxaEdT0vT+C3ddies\nxOMmWcetAgMBAAECggEAHnqLuIyZq6dvU38AesQf3tfzSJO9xGfsE+ZFNyZKu+3D\nmJte0ymFUrFPbZMRfLCXaAP7e47aEaFIcGht0LFWwTSVIeBdQxj8xWuUfVMlYLKr\nyPxPNCnnsDJPK14Dn+Dr5GpXruGIkfLUMijhwmWONNdf5XBjHtHW8rVh5LlZ0qJr\nMrcq1mlq7ugli9SDKBP6VaI25x/OinGL6I3hO5GXtPMu2fF8Tb3zOn7aSzlDUKBC\npopARgPObePPmEFWMlh14L3gh2v8cKaDGX8vQS88V3nljzuJ5EqvprnaXtwo1DLN\n2DN4l6FoWuQz59Rw2hqeC2tetpscjVpz0HRSbofJuwKBgQD5TCHa9G7FEioOYpN+\nikZ/zGDRoOqPwM0BcMFqFC28I/qZMtjZESHaBbGSNaVi0lDmySesghJ49SyvPCuc\nSBJqMdzq3NcEBGWyAGq8wiqHgUaapCzBhGa4wK7yFJ6wLi7Kt8PoXhX9kDu8vZAO\n3zyf4h6gBASPCeHQFP21oyCcQwKBgQDyQugBrfccq4hrMpyHAxthwyHBLcQlJijf\nBC/VfTMxnYLAV3E8HWKvpoTGwmkePxg6zVQJ7biT3qkM2UOI6Dffr3yW+v7wNQiz\nHpweDt+e7lVBGWndhGUP6Y3CbrcdvnWRx2vQv8bpQEsLkRmkVnerlnLoiUf6YtSn\nPxUvIS7FTwKBgAcuikskf4xt2YhQjq82jJFh8egYGqnJhB5mgSvtKOQipTWEoXqf\nY7pEL7lmkj0mke4UHXB6zs1tQrxJn3gBG4azqQmbExaqicN2/5wwe8krkD0kPaXV\niqAH7QJMVcX9jpuIb7xh+YA0h4QIcf37sGNqwDcb5oW4Yyj7cdOpv2bBAoGAAQgF\n4tPxxF56kzJA9lYuDKl/AEqIljvmWqSy627ABAsOnnEA22eonuTPleUH+4f7O2za\nWbx4V7DP+W0HW5LZggtGNYJWCYHASrrroTkg/JU5KbDJAZdpsrqkztoXz3mbGIbH\nz7ixSRbr+t2gRVHU6pcWYCUNeGRpUVj0ZyH2CAMCgYAviD1zvdC6At5MV3GqPxpz\njudJLLRLtU8axGH85pvBwM+O0/r05E+un3FD70WgdwzGY3mUf+eYkNARVm3DoyOs\nh9JH/cP+JhrlEm0VDjW1dg2/KBID9aQ1PHOEqTzy6djeHD0Ajh3nbmJ3U0SFZjzu\ncNsEHitIo8LTjzy+Qa/Vvw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "packer-example@hello-world-pompei.iam.gserviceaccount.com",
+  "client_id": "117004260780922117082",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/packer-example%40hello-world-pompei.iam.gserviceaccount.com"
+}

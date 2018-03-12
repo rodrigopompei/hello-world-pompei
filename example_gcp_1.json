@@ -1,0 +1,12 @@
+{
+  "builders": [
+    {
+      "type": "googlecompute",
+      "account_file": "hello-world-pompei-2c306d45af9f.json",
+      "project_id": "hello-world-pompei",
+      "source_image": "centos-7-v20180227",
+      "ssh_username": "rpompei",
+      "zone": "us-east1-b"
+    }
+  ]
+}
