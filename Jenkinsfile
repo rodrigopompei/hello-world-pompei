@@ -12,6 +12,7 @@ pipeline {
         stage('Pre Test') {
             steps {
                 echo 'Installing dependencies'
+                cleanWS ()
                 sh 'go version'
                 sh 'go get -u golang.org/x/lint/golint'
             }
