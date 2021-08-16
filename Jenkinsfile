@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    cleanWS
+    cleanWS ()
     tools {
         go 'go1.16.7'
     }
