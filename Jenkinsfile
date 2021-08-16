@@ -1,6 +1,5 @@
 pipeline {
     agent any
-    cleanWS ()
     tools {
         go 'go1.16.7'
     }
@@ -21,6 +20,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Compiling and building'
+                cleanWS ()
                 sh 'go build'
             }
         }
