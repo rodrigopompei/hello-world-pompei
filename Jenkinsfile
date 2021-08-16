@@ -11,7 +11,7 @@ pipeline {
             steps {
                 echo 'Installing dependencies'
                 sh 'go version'
-                sh 'go get -u golang.org/x/lint/golint'
+ //               sh 'go get -u golang.org/x/lint/golint'
             }
         }
         
