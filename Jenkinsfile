@@ -20,7 +20,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Compiling and building'
-                sh 'go mod init golang.org/x/lint'
                 sh 'go build'
             }
         }
