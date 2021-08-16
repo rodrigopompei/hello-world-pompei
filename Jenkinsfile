@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    clearWS
     tools {
         go 'go1.16.7'
     }
