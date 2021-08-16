@@ -6,7 +6,7 @@ pipeline {
                      echo 'This is cloning a simple Go application'
                      sh 'mkdir -p build_test'
                      dir('build_test') {
-                        git branch: master, url: https://github.com/rodrigopompei/hello-world-pompei
+                        git branch: master, url: "https://github.com/rodrigopompei/hello-world-pompei"
       }     
                  }
                  }
