@@ -1,10 +1,10 @@
 pipeline {
     agent any
     tools {
-        go 'go1.16.7'
+        go 'go1.16'
     }
     environment {
-        GO1167MODULE = 'on'
+        GO116MODULE = 'on'
         CGO_ENABLED = 0 
         GOPATH = "${JENKINS_HOME}/jobs/${JOB_NAME}/builds/${BUILD_ID}"
     }
