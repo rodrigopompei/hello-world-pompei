@@ -20,7 +20,7 @@ pipeline {
         
         stage('Build') {
             steps {
-                withEnv(["GOROOT=${root}", "GOPATH=${JENKINS_HOME}/jobs/${JOB_NAME}/builds/${BUILD_ID}/", "PATH+GO=${root}/bin"])
+                withEnv(["GOROOT=${GOPATH}", "GOPATH=${JENKINS_HOME}/jobs/${JOB_NAME}/builds/${BUILD_ID}/", "PATH+GO=${GOPATH}/bin"])
                 echo 'Compiling and building'
 //                cleanWS ()
                 sh 'go version'
