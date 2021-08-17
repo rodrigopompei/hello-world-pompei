@@ -9,13 +9,14 @@ pipeline {
         GOPATH = "${JENKINS_HOME}/jobs/${JOB_NAME}/builds/${BUILD_ID}"
     }
     stages {        
-        stage('Pre Test') {
-            steps {
-                echo 'Installing dependencies'
-                sh 'go version'
-                sh 'go clean -cache'
-                sh 'go get -u golang.org/x/lint/golint'
-            }
+        stage('Clone Terraform code') {
+                 steps {
+                     echo 'This is cloning Terraform application'
+                     sh 'mkdir -p terraform_build'
+                     dir('terraform_build') {
+                        git branch: 'master', url: 'https://github.com/hashicorp/terraform'
+      }     
+                 }
         }
         
         stage('Build') {
@@ -26,18 +27,18 @@ pipeline {
             }
         }
 
-        stage('Test') {
-            steps {
-                withEnv(["PATH+GO=${GOPATH}/bin"]){
-                    echo 'Running vetting'
-                    sh 'go vet .'
-                    echo 'Running linting'
-                    sh 'golint .'
-                    echo 'Running test'
-                    sh 'cd test && go test -v'
-                }
-            }
-        }
+//        stage('Test') {
+//            steps {
+//                withEnv(["PATH+GO=${GOPATH}/bin"]){
+//                    echo 'Running vetting'
+//                    sh 'go vet .'
+//                    echo 'Running linting'
+//                    sh 'golint .'
+//                    echo 'Running test'
+//                    sh 'cd test && go test -v'
+//                }
+//            }
+//        }
         
     }
 }
