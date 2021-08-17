@@ -14,7 +14,7 @@ pipeline {
                      echo 'This is cloning Terraform application'
                      sh 'mkdir -p terraform_build'
                      dir('terraform_build') {
-                        git branch: 'master', url: 'https://github.com/hashicorp/terraform'
+                        git branch: 'main', url: 'https://github.com/hashicorp/terraform'
       }     
                  }
         }
