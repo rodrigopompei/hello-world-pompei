@@ -21,7 +21,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Compiling and building'
-                cleanWS ()
+ //               cleanWS ()
                 sh 'go build'
             }
         }
