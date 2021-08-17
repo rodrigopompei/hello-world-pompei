@@ -18,13 +18,13 @@ pipeline {
             }
         }
         
-//        stage('Build') {
-//            steps {
-//                echo 'Compiling and building'
-//                cleanWS ()
-//                sh 'go build'
-//            }
-//        }
+        stage('Build') {
+            steps {
+                echo 'Compiling and building'
+                cleanWS ()
+                sh 'go build'
+            }
+        }
 
         stage('Test') {
             steps {
