@@ -9,25 +9,20 @@ pipeline {
         GOPATH = "${JENKINS_HOME}/jobs/${JOB_NAME}/builds/${BUILD_ID}"
     }
     stages {        
-//        stage('Pre Test') {
-//            steps {
-//                echo 'Installing dependencies'
-//                sh 'go version'
-//                sh 'go clean -cache'
-//                sh 'go get -u golang.org/x/lint/golint'
-//            }
-//        }
-        
-        stage('Build') {
+        stage('Pre Test') {
             steps {
-                withEnv(["GOROOT=${GOPATH}", "GOPATH=${JENKINS_HOME}/jobs/${JOB_NAME}/builds/${BUILD_ID}/", "PATH+GO=${GOPATH}/bin"]){
-                echo 'Compiling and building'
-//                cleanWS ()
+                echo 'Installing dependencies'
                 sh 'go version'
                 sh 'go clean -cache'
                 sh 'go get -u golang.org/x/lint/golint'
+            }
+        }
+        
+        stage('Build') {
+            steps {
+                echo 'Compiling and building'
+//                cleanWS ()
                 sh 'go build'
-                }
             }
         }
 
