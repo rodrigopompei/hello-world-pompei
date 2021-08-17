@@ -21,9 +21,11 @@ pipeline {
         
         stage('Build') {
             steps {
+                withEnv(["PATH+GO=${GOPATH}/bin"]){
                 echo 'Compiling and building'
 //                cleanWS ()
                 sh 'go build'
+                }
             }
         }
 
