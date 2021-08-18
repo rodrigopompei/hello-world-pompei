@@ -1,42 +1,19 @@
 pipeline {
          agent any
          stages {
-                 stage('One') {
+                 stage('Git checkout') {
                  steps {
-                     echo 'This is cloning a simple Go application'
+                     echo 'This is cloning a simple Python scripts'
                      dir('build_test') {
-                        git branch: 'master', url: 'https://github.com/rodrigopompei/hello-world-pompei'
+                        git branch: 'Jenkins_Python', url: 'https://github.com/rodrigopompei/hello-world-pompei'
       }     
                  }
                  }
-                 stage('Two') {
+                 stage('Program execution') {
                  steps {
-                    input('Do you want to proceed?')
+                    sh 'cd python'
+                    sh 'python main.py'
                  }
                  }
-                 stage('Three') {
-                 when {
-                       not {
-                            branch "master"
-                       }
-                 }
-                 steps {
-                       echo "Hello"
-                 }
-                 }
-                 stage('Four') {
-                 parallel { 
-                            stage('Unit Test') {
-                           steps {
-                                echo "Running the unit test..."
-                           }
-                           }
-                            stage('Integration test') {
-                              steps {
-                                echo "Running the integration test..."
-                              }
-                           }
-                           }
-                           }
               }
 }
