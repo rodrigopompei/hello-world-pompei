@@ -22,6 +22,7 @@ pipeline {
             steps {
                 echo 'Compiling and building'
  //               cleanWS ()
+                sh 'cd ${GOPATH}/src'
                 sh 'go build'
             }
         }
