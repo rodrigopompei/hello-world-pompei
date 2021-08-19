@@ -30,7 +30,7 @@ pipeline {
             steps {
                 withEnv(["PATH+GO=${GOPATH}/bin"]){
                     echo 'Running vetting'
-                    sh 'cd ${GOPATH}/src/golang.org/x/lint/go && vet .'
+                    sh 'cd ${GOPATH}/src/golang.org/x/lint/ && go vet .'
                     echo 'Running linting'
                     sh 'cd ${GOPATH}/src/golang.org/x/lint/ && golint .'
                     echo 'Running test'
