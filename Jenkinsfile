@@ -34,7 +34,7 @@ pipeline {
                     echo 'Running linting'
                     sh 'cd ${GOPATH}/src/golang.org/x/lint/ && golint .'
                     echo 'Running test'
-                    sh 'cd testdata && go test -v'
+                    sh 'cd ${GOPATH}/src/golang.org/x/lint/testdata && go test -v'
                 }
             }
         }
