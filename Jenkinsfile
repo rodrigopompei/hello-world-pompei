@@ -22,7 +22,7 @@ pipeline {
             steps {
                 echo 'Compiling and building'
  //               cleanWS ()
-                sh 'cd ${GOPATH}/src && go build'
+                sh 'cd ${GOPATH}/src/golang.org/x/lint/ && go build'
             }
         }
 
